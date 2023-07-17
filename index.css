@@ -1,0 +1,33 @@
+.main{
+    height: 80vh;
+    width: 100%;
+    background: #2f2d2d;
+    border-radius: 13px;
+}
+.card{
+    cursor:grab;
+    margin: 6px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 60px;
+    width: 80%;
+    font-size: 30px;
+}
+.left{
+    border:dashed white 3px ;
+    border-radius: 13px;
+}
+.toasts{
+    position: absolute;  
+    justify-content:space-evenly;
+    align-items:center;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    height: 60px;
+    width: 240px;
+    border-radius: 7px;
+    display: none;
+   
+}
